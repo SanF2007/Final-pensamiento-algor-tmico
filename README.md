@@ -54,7 +54,7 @@ Pokemon
 
 Este juego presenta un pokememon con un sistema simple, en el cual al igual que en el original se puede pover por el mapa y enfrentarse a un rival.
 
-El sistema del mapa funciona de la siguiente manera:
+En el juego el usuario empezara desde un punto en el mapa, en el que tendra que moverse por medio de las flechas hasta donde se encuentra el enemigo, al chocar de frente con el enemigo se iniciara el combate automaticamente, el sistema del mapa funciona de la siguiente manera:
 
 • # Como las paredes u obstaculos
 
@@ -62,7 +62,7 @@ El sistema del mapa funciona de la siguiente manera:
 
 •'$' como el enemigo (Editado por medio de una libreria propia)
 
-Mientras que la batalla se da por medio de un menu de batalla en el cual al seleccionar:
+Mientras que la batalla se da por medio de un menu de batalla, el cual permite desplazar libremente al usuario por medio de las flechas y elegir cual opcion va a utilizar, en el menu de batalla se da a seleccionar seleccionar:
 
 •"huir" finalizara la batalla 
 
