@@ -73,3 +73,9 @@ Mientras que la batalla se da por medio de un menu de batalla, el cual permite d
 •"Atacar" dirigira al usuario a un menu de batalla donde se podra escojer entre 2 ataques
 
 al finalizar el combate saldra el mensaje de victoria o derrota, dependiendo del resultado del combate.
+
+Integrantes del grupo:
+
+• Juan David Triana
+
+• Santiago Forero
