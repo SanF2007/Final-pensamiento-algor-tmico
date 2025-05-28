@@ -51,8 +51,11 @@ Se requiere tener Pygame instalado, para instalarlo solo es necesario escribir e
 
 
 Pokemon
+
 Este juego presenta un pokememon con un sistema simple, en el cual al igual que en el original se puede pover por el mapa y enfrentarse a un rival.
+
 El sistema del mapa funciona de la siguiente manera:
+
 • # Como las paredes u obstaculos
 •'@' como el jugador (Editado por medio de una libreria propia)
 •'$' como el enemigo (Editado por medio de una libreria propia)
