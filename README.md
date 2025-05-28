@@ -48,3 +48,17 @@ Cálculo de Tarifa: Al mover el vehículo hacia la zona de salida (cuadrado rojo
 Mensajes en Consola: El juego proporciona mensajes en la consola para indicar cuando el vehículo ha sido estacionado correctamente y el costo total al salir.
 CONDICIONES IMPORTANTES PARA PODER JUGARLO
 Se requiere tener Pygame instalado, para instalarlo solo es necesario escribir en el CMD el siguiente comando: pip install pygame y si se esta usando Python 3 y se tiene problemas con pip entonces utiliza el siguiente: pip3 install pygame
+
+
+Pokemon
+Este juego presenta un pokememon con un sistema simple, en el cual al igual que en el original se puede pover por el mapa y enfrentarse a un rival.
+El sistema del mapa funciona de la siguiente manera:
+• # Como las paredes u obstaculos
+•'@' como el jugador (Editado por medio de una libreria propia)
+•'$' como el enemigo (Editado por medio de una libreria propia)
+Mientras que la batalla se da por medio de un menu de batalla en el cual al seleccionar:
+•"huir" finalizara la batalla 
+•"Cambio" Cambiara el pokemon
+•"Objeto" No funcionara al no tener objetos
+•"Atacar" dirigira al usuario a un menu de batalla donde se podra escojer entre 2 ataques
+al finalizar el combate saldra el mensaje de victoria o derrota, dependiendo del resultado del combate
