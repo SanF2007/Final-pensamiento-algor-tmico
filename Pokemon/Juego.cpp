@@ -7,7 +7,7 @@ using namespace std;
 void moverCursor(int x, int y);
 void encontrarJugador(int &x, int &y);
 void mostrarBarraVida(string nombre, int vida, int vidaMax);
-void dibujarSpriteHeroe(int x, int y);
+void dibujarSpritePersonaje(int x, int y);
 void dibujarSpriteEnemigo(int x, int y);
 int elegirAtaque(struct Personaje &p);
 int mostrarMenuBatalla();
@@ -69,7 +69,7 @@ void mostrarBarraVida(string nombre, int vida, int vidaMax) {
     cout << "] " << vida << "/" << vidaMax << endl;
 }
 
-void dibujarSpriteHeroe(int x, int y) {
+void dibujarSpritePersonaje(int x, int y) {
     moverCursor(x, y);     cout << "  O  ";
     moverCursor(x, y + 1); cout << " /|\\ ";
     moverCursor(x, y + 2); cout << " / \\ ";
@@ -151,7 +151,7 @@ void batalla(Personaje jugador[], Personaje enemigo[]) {
         if (jugador[activoJugador].vida <= 0) {
             activoJugador = siguienteVivo(jugador, 2, activoJugador);
             if (activoJugador == -1) {
-                cout << "Todos tus heroes han sido derrotados.\n";
+                cout << "Todos tus pokemon han sido derrotados.\n";
                 break;
             }
         }
@@ -169,7 +169,7 @@ void batalla(Personaje jugador[], Personaje enemigo[]) {
         mostrarBarraVida(jugador[activoJugador].nombre, jugador[activoJugador].vida, jugador[activoJugador].vidaMax);
         mostrarBarraVida(enemigo[activoEnemigo].nombre, enemigo[activoEnemigo].vida, enemigo[activoEnemigo].vidaMax);
 
-        dibujarSpriteHeroe(5, 8);
+        dibujarSpritePersonaje(5, 8);
         dibujarSpriteEnemigo(30, 8);
 
         int opcion = mostrarMenuBatalla();
@@ -192,7 +192,7 @@ void batalla(Personaje jugador[], Personaje enemigo[]) {
                     activoJugador = otro;
                     cout << "Cambiando a " << jugador[activoJugador].nombre << "\n";
                 } else {
-                    cout << "No hay otro heroe disponible.\n";
+                    cout << "Pokemons derrotados.\n";
                 }
                 Sleep(1000);
                 continue;
